@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 50px ;
+    width: 400px;
+    height: 700px;
+    overflow: hidden;
+    border: 1px solid red;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+i{
+    margin-right: 5px;
+}
+.networks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #d72830;
+    color: #ffffff;
+    font-size: 0.6rem;
+    height: 25px;
+}
+.header{
+    color: #ffffff;
+    background-color: #ff4d4f;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:  15px;
+}
+
+.navbar-left > span{
+    margin-left: 1rem;
+}
+.fa-user{
+   margin-right: 1rem; 
+}
+.fa-magnifying-glass{
+   margin-left: 1rem; 
+}
+.categories{
+    display: flex;
+    justify-content: space-around;  
+}
+.categories > span{
+    height: 40px;
+    width: 90%;
+}
+.for-you{
+    padding-left: 15px;
+    border-bottom: 2px solid #ffffff;
+    width: 80px;
+}
+
+.news-card{
+    height: 220px;
+    color: #ffffff;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 10px;
+    position: relative;
+}
+.card1,.card3{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(imges/sanju-poster.webp);
+}
+.card2{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(imges/imran-khan.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.news-heading{
+    font-size: 0.8rem;
+    color: #e2ca14;
+    font-weight: 400;
+    margin: 3px 20px;
+}
+.news-brief{
+    font-weight: 500;
+    margin: 3px 20px; 
+}
+.news-date{
+    color: #b9b8b8;
+    font-size: 0.7rem;
+    margin: 3px 20px; 
+    font-weight: 400;
+}
+.pen-icon-wrap{
+    height: 25px;
+    width: 25px;
+    background-color: #ffffff;
+    color: #b9b8b8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    opacity: 0.8;
+}
+.pen-icon{
+    font-size: 0.8rem;
+    margin-left: 6px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color: #d4d3d3;
+    position: absolute;
+    bottom: 10px;
+    overflow: hidden;
+}
+.icon-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    border: 1px solid #d4d3d3;
+    padding: 5px;
+    border-radius: 50%;
+}
+.footer-text{
+    font-size: 0.7rem;
+    text-align: center;
+}
+.icon-wrap{
+    width: max-content;
+}
